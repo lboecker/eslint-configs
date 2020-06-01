@@ -1,6 +1,6 @@
 {
   "name": "@lboecker/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lukas Böcker's ESLint config for React apps",
   "keywords": [
     "eslint",
@@ -27,7 +27,7 @@
     "directory": "packages/eslint-config-react"
   },
   "dependencies": {
-    "@lboecker/eslint-config": "^0.1.0"
+    "@lboecker/eslint-config": "^0.1.1"
   },
   "peerDependencies": {
     "eslint": "^6.8.0",
