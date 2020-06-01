@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@lboecker/eslint-config"]
+}
