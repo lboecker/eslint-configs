@@ -1,4 +1,5 @@
 {
+  "name": "eslint-configs-monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -11,6 +12,7 @@
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint --ext .js,.ts --max-warnings 0 .",
     "lint:prettier": "prettier --check '**/*.{json,yaml,yml}'",
+    "prepare": "yarn build",
     "test": "jest",
     "test:ci": "yarn test --ci --colors"
   },
