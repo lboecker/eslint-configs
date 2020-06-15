@@ -6,8 +6,6 @@
 This package provides Lukas Böcker's base ESLint config (without React
 plugins) as a [shareable config][].
 
-This config assumes you're using Babel and Prettier.
-
 ## License
 
 [ISC](LICENSE)
