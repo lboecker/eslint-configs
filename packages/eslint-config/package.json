@@ -1,6 +1,6 @@
 {
   "name": "@lboecker/eslint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Lukas Böcker's base ESLint config",
   "keywords": [
     "eslint",
