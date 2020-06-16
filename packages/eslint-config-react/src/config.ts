@@ -1,4 +1,6 @@
-const config = {
+import { Linter } from 'eslint';
+
+const config: Linter.Config = {
   plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'prettier'],
   extends: [
     '@lboecker/eslint-config',

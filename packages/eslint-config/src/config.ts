@@ -1,6 +1,7 @@
+import { Linter } from 'eslint';
 import restrictedGlobals from 'confusing-browser-globals';
 
-const config = {
+const config: Linter.Config = {
   plugins: ['import', 'prettier'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
