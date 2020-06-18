@@ -1,6 +1,6 @@
 {
   "name": "@lboecker/eslint-config-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Lukas Böcker's ESLint config for React apps",
   "keywords": [
     "eslint",
@@ -27,7 +27,7 @@
     "directory": "packages/eslint-config-react"
   },
   "dependencies": {
-    "@lboecker/eslint-config": "^0.2.0"
+    "@lboecker/eslint-config": "^0.3.0"
   },
   "devDependencies": {
     "@types/eslint": "^7.2.0",
