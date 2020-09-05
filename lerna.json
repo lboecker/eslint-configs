@@ -1,5 +1,12 @@
 {
   "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
+  "ignoreChanges": ["*.md", "**/__mocks__/**", "**/__tests__/**"],
+  "command": {
+    "version": {
+      "push": false
+    }
+  }
 }
