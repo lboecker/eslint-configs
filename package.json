@@ -15,7 +15,8 @@
     "prepack": "yarn build",
     "test": "jest",
     "test:ci": "yarn test --ci --colors",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "version": "yarn install"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
