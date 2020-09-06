@@ -1,6 +1,6 @@
 {
   "name": "@lboecker/eslint-config-react",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Lukas Böcker's ESLint config for React apps",
   "keywords": [
     "eslint",
@@ -30,7 +30,7 @@
     "build": "babel --root-mode upward --extensions .js,.jsx,.ts,.tsx --out-dir dist --delete-dir-on-start src"
   },
   "dependencies": {
-    "@lboecker/eslint-config": "^0.3.1"
+    "@lboecker/eslint-config": "^0.4.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "4.x",
