@@ -17,7 +17,7 @@ const config: Linter.Config = {
   },
   rules: {
     curly: 'error',
-    eqeqeq: 'error',
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-restricted-globals': ['error', ...restrictedGlobals],
     'no-var': 'error',
     'import/first': 'error',
