@@ -1,5 +1,13 @@
 coverage/
 dist/
-lerna-debug.log
 node_modules/
+
 yarn-error.log
+lerna-debug.log
+
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

@@ -5,14 +5,14 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna exec --parallel -- babel --root-mode upward --extensions .js,.jsx,.ts,.tsx --out-dir dist --delete-dir-on-start src",
+    "build": "yarn workspaces foreach --parallel --topological run build",
     "fix": "yarn fix:eslint && yarn fix:prettier",
     "fix:eslint": "eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0 .",
     "fix:prettier": "prettier --write '**/*.{json,yaml,yml}'",
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings 0 .",
     "lint:prettier": "prettier --check '**/*.{json,yaml,yml}'",
-    "prepare": "yarn build",
+    "prepack": "yarn build",
     "test": "jest",
     "test:ci": "yarn test --ci --colors",
     "typecheck": "tsc --noEmit"
@@ -22,8 +22,10 @@
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-typescript": "^7.10.1",
-    "@lboecker/eslint-config": "*",
+    "@lboecker/eslint-config": "workspace:*",
+    "@types/eslint": "^7.2.2",
     "@types/jest": "^26.0.0",
+    "@types/node": "^14.6.4",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
     "@typescript-eslint/parser": "^3.3.0",
     "babel-eslint": "^10.1.0",
