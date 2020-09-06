@@ -30,7 +30,7 @@
     "build": "babel --root-mode upward --extensions .js,.jsx,.ts,.tsx --out-dir dist --delete-dir-on-start src"
   },
   "dependencies": {
-    "@lboecker/eslint-config": "workspace:^0.3.1"
+    "@lboecker/eslint-config": "^0.3.1"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "4.x",
