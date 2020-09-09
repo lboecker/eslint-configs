@@ -26,7 +26,9 @@
     "directory": "packages/eslint-config"
   },
   "scripts": {
-    "build": "babel --root-mode upward --extensions .js,.jsx,.ts,.tsx --out-dir dist --delete-dir-on-start src"
+    "build": "rm -rf dist && yarn build:js && yarn build:declarations",
+    "build:declarations": "tsc --emitDeclarationOnly",
+    "build:js": "babel --root-mode upward --extensions .js,.jsx,.ts,.tsx --out-dir dist src"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.9"
