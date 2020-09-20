@@ -39,8 +39,6 @@ const config: Linter.Config = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         project: './tsconfig.json',
-        ecmaVersion: 2018,
-        sourceType: 'module',
         ecmaFeatures: {
           jsx: true,
         },
