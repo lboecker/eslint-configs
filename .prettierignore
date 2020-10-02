@@ -1,3 +1,5 @@
-.yarn/
 coverage/
 dist/
+
+.yarn/
+.yarnrc.yml
