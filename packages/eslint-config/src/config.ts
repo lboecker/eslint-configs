@@ -43,9 +43,6 @@ const config: Linter.Config = {
           jsx: true,
         },
       },
-      rules: {
-        '@typescript-eslint/explicit-function-return-type': 'error',
-      },
     },
     {
       files: ['**/__tests__/**', '**/__mocks__/**'],
