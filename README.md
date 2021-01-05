@@ -4,7 +4,7 @@
 
 Lukas Böcker's ESLint configs
 
-## Available Configs
+## Available configs
 
 - [@lboecker/eslint-config](packages/eslint-config)
 - [@lboecker/eslint-config-react](packages/eslint-config-react)
@@ -16,7 +16,7 @@ Lukas Böcker's ESLint configs
 3. `yarn fix`
 4. `yarn lint && yarn typecheck && yarn test`
 
-## Releasing a New Version
+## Releasing a new version
 
 1. `yarn lerna version`
 2. `git push && git push --tags`
