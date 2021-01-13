@@ -10,7 +10,7 @@ const config: Linter.Config = {
     es2017: true,
     node: true,
   },
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',

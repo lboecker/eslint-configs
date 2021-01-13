@@ -35,9 +35,9 @@
     "@lboecker/eslint-config": "^0.6.0"
   },
   "peerDependencies": {
+    "@babel/eslint-parser": "7.x",
     "@typescript-eslint/eslint-plugin": "4.x",
     "@typescript-eslint/parser": "4.x",
-    "babel-eslint": "10.x",
     "eslint": "7.x",
     "eslint-config-prettier": "7.x",
     "eslint-plugin-import": "2.x",
