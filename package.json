@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach --parallel --interlaced --topological run build",
+    "build": "yarn workspaces foreach --parallel --topological run build",
     "fix": "yarn fix:eslint && yarn fix:prettier",
     "fix:eslint": "eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0 .",
     "fix:prettier": "prettier --write '**/*.{json,yaml,yml}'",
@@ -16,7 +16,7 @@
     "lint:prettier": "prettier --check '**/*.{json,yaml,yml}'",
     "prepack": "yarn build",
     "test": "jest",
-    "test:ci": "yarn test --ci --colors",
+    "test:ci": "jest --ci --colors",
     "typecheck": "tsc --noEmit",
     "version": "yarn install && git add yarn.lock"
   },
