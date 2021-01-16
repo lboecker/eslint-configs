@@ -11,10 +11,9 @@ Lukas Böcker's ESLint configs
 
 ## Contributing
 
-1. `yarn install && yarn build`
-2. Add your changes
-3. `yarn fix`
-4. `yarn lint && yarn typecheck && yarn test`
+1. `yarn install && yarn hooks:install`
+2. `yarn build`
+3. Add your changes
 
 ## Releasing a new version
 
