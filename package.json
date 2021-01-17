@@ -9,8 +9,6 @@
     "fix": "yarn fix:eslint && yarn fix:prettier",
     "fix:eslint": "eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0 .",
     "fix:prettier": "prettier --write '**/*.{json,yaml,yml}'",
-    "hooks:install": "node node_modules/husky/husky.js install",
-    "hooks:uninstall": "node node_modules/husky/husky.js uninstall",
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings 0 .",
     "lint:prettier": "prettier --check '**/*.{json,yaml,yml}'",
