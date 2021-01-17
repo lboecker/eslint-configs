@@ -22,15 +22,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn typecheck"
+      "pre-commit": "lint-staged"
     }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0",
-      "jest --ci --findRelatedTests --passWithNoTests"
-    ],
-    "*.{json,yaml,yml}": "prettier --write"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
