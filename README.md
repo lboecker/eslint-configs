@@ -11,7 +11,7 @@ Lukas Böcker's ESLint configs
 
 ## Contributing
 
-1. `yarn install && yarn hooks:install`
+1. `yarn install`
 2. `yarn build`
 3. Add your changes
 
@@ -19,12 +19,16 @@ Lukas Böcker's ESLint configs
 
 1. `yarn lerna version`
 2. `git push && git push --tags`
-3. `yarn lerna publish from-git` or `yarn lerna publish from-package`
+3. `yarn lerna publish from-package` or `yarn lerna publish from-git`
 
 ## Updating Yarn
 
 1. `yarn set version latest`
 2. `yarn install`
+
+## Updating Yarn plugins
+
+`yarn plugin import <name>`
 
 ## License
 
