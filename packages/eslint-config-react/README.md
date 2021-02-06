@@ -10,4 +10,4 @@ a [shareable config][].
 
 [ISC](LICENSE)
 
-[shareable config]: https://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package
+[shareable config]: https://eslint.org/docs/developer-guide/shareable-configs
