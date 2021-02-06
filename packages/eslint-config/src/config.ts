@@ -16,10 +16,32 @@ const config: Linter.Config = {
     sourceType: 'module',
   },
   rules: {
+    // Best practices
+    'array-callback-return': 'error',
     curly: 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
+    'no-caller': 'error',
+    'no-eval': 'error',
+    'no-extend-native': 'error',
+    'no-implied-eval': 'error',
+    'no-iterator': 'error',
+    'no-new-func': 'error',
+    'no-new-wrappers': 'error',
+    'no-octal-escape': 'error',
+    'no-proto': 'error',
     'no-restricted-globals': ['error', ...restrictedGlobals],
+    'no-script-url': 'error',
+    'no-self-compare': 'error',
+    'no-sequences': 'error',
+    'no-throw-literal': 'error',
+
+    // Stylistic issues
+    'no-nested-ternary': 'error',
+
+    // ES2015
     'no-var': 'error',
+
+    // These are the same rules that eslint-config-react-app uses.
     'import/first': 'error',
     'import/no-amd': 'error',
     'import/no-anonymous-default-export': 'error',
