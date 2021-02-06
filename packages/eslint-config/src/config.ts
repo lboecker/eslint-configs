@@ -2,7 +2,7 @@ import { Linter } from 'eslint';
 import restrictedGlobals from 'confusing-browser-globals';
 
 const config: Linter.Config = {
-  plugins: ['import', 'prettier'],
+  plugins: ['import'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
     browser: true,
@@ -50,7 +50,6 @@ const config: Linter.Config = {
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
-      plugins: ['@typescript-eslint'],
       extends: [
         'plugin:import/typescript',
         'plugin:@typescript-eslint/eslint-recommended',
@@ -68,7 +67,6 @@ const config: Linter.Config = {
     },
     {
       files: ['**/__tests__/**', '**/__mocks__/**'],
-      plugins: ['jest'],
       extends: ['plugin:jest/recommended'],
       env: {
         'jest/globals': true,

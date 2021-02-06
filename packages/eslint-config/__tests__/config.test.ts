@@ -5,10 +5,6 @@ test('exports ESLint config', () => {
   expect(config).toHaveProperty('extends');
 });
 
-test('includes Prettier plugin', () => {
-  expect(config.plugins).toContain('prettier');
-});
-
 test('extends eslint:recommended', () => {
   expect(config.extends).toContain('eslint:recommended');
 });

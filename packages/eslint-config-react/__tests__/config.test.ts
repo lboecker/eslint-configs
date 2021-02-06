@@ -8,10 +8,3 @@ test('exports ESLint config', () => {
 test('extends @lboecker/eslint-config', () => {
   expect(config.extends).toContain('@lboecker/eslint-config');
 });
-
-test.each(['jsx-a11y', 'react-hooks', 'react'])(
-  'includes eslint-plugin-%s',
-  (plugin) => {
-    expect(config.plugins).toContain(plugin);
-  }
-);
