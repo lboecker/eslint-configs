@@ -6,7 +6,6 @@ const config: Linter.Config = {
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
     browser: true,
-    commonjs: true,
     es2017: true,
     node: true,
   },
@@ -68,9 +67,6 @@ const config: Linter.Config = {
     {
       files: ['**/__tests__/**', '**/__mocks__/**'],
       extends: ['plugin:jest/recommended'],
-      env: {
-        'jest/globals': true,
-      },
     },
   ],
 };
