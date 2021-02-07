@@ -41,6 +41,7 @@ const config: Linter.Config = {
 
     // ES2015
     'no-var': 'error',
+    'prefer-const': 'error',
 
     // These are the same rules that eslint-config-react-app uses.
     'import/first': 'error',
