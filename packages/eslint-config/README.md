@@ -10,4 +10,4 @@ plugins) as a [shareable config][].
 
 [ISC](LICENSE)
 
-[shareable config]: https://eslint.org/docs/developer-guide/shareable-configs
+[shareable config]: https://eslint.org/docs/user-guide/configuring/configuration-files#using-a-shareable-configuration-package
