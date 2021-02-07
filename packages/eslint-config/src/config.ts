@@ -2,8 +2,8 @@ import { Linter } from 'eslint';
 import restrictedGlobals from 'confusing-browser-globals';
 
 const config: Linter.Config = {
-  plugins: ['import'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  plugins: ['import'],
   env: {
     browser: true,
     es2017: true,
