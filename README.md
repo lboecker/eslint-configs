@@ -15,6 +15,12 @@ Lukas Böcker's ESLint configs
 2. `yarn build`
 3. Add your changes
 
+## Debugging
+
+To output the final ESLint config run:
+
+`yarn eslint --print-config example.ts`
+
 ## Releasing a new version
 
 1. `yarn lerna version`
