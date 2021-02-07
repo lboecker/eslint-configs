@@ -1,7 +1,6 @@
 import { Linter } from 'eslint';
 
 const config: Linter.Config = {
-  plugins: ['react-hooks'],
   extends: [
     '@lboecker/eslint-config',
     'plugin:import/react',
