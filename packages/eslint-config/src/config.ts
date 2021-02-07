@@ -28,11 +28,13 @@ const config: Linter.Config = {
     'no-new-wrappers': 'error',
     'no-octal-escape': 'error',
     'no-proto': 'error',
-    'no-restricted-globals': ['error', ...restrictedGlobals],
     'no-script-url': 'error',
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-throw-literal': 'error',
+
+    // Variables
+    'no-restricted-globals': ['error', ...restrictedGlobals],
 
     // Stylistic issues
     'no-nested-ternary': 'error',
