@@ -1,6 +1,6 @@
 # eslint-configs
 
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/lboecker/eslint-configs/CI/master?label=ci)
+![CI Status](https://img.shields.io/github/workflow/status/lboecker/eslint-configs/CI/master?label=ci)
 
 Lukas Böcker's ESLint configs
 
@@ -17,9 +17,13 @@ Lukas Böcker's ESLint configs
 
 ## Debugging
 
-To output the final ESLint config run:
+To output the final configs, run ESLint with the following options:
 
-`yarn eslint --print-config example.ts`
+`yarn eslint --no-eslintrc -c <config> --print-config <file>`
+
+For example, run:
+
+`yarn eslint --no-eslintrc -c packages/eslint-config-react/dist/index.js --print-config __tests__/example.test.tsx`
 
 ## Releasing a new version
 
