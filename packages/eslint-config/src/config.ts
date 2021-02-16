@@ -39,8 +39,8 @@ const config: Linter.Config = {
     'no-restricted-globals': ['error', ...restrictedGlobals],
 
     // Stylistic issues
-    'no-nested-ternary': 'error',
     'no-array-constructor': 'error',
+    'no-nested-ternary': 'error',
 
     // ES2015
     'no-var': 'error',
