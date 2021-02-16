@@ -20,6 +20,7 @@ const config: Linter.Config = {
     curly: 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-caller': 'error',
+    'no-empty-function': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',
     'no-implied-eval': 'error',
@@ -32,16 +33,20 @@ const config: Linter.Config = {
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-throw-literal': 'error',
+    'require-await': 'error',
 
     // Variables
     'no-restricted-globals': ['error', ...restrictedGlobals],
 
     // Stylistic issues
     'no-nested-ternary': 'error',
+    'no-array-constructor': 'error',
 
     // ES2015
     'no-var': 'error',
     'prefer-const': 'error',
+    'prefer-rest-params': 'error',
+    'prefer-spread': 'error',
 
     // These are the same rules that eslint-config-react-app uses.
     'import/first': 'error',
