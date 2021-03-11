@@ -7,7 +7,7 @@ const config: Linter.Config = {
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'prettier/react',
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {

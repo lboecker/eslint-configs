@@ -61,7 +61,7 @@ const config: Linter.Config = {
         'plugin:import/typescript',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'prettier/@typescript-eslint',
+        'plugin:prettier/recommended',
       ],
       parser: '@typescript-eslint/parser',
       parserOptions: {
@@ -73,7 +73,7 @@ const config: Linter.Config = {
     },
     {
       files: ['**/__tests__/**', '**/__mocks__/**'],
-      extends: ['plugin:jest/recommended'],
+      extends: ['plugin:jest/recommended', 'plugin:prettier/recommended'],
     },
   ],
 };
