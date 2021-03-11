@@ -1,6 +1,6 @@
 # eslint-configs
 
-![CI Status](https://img.shields.io/github/workflow/status/lboecker/eslint-configs/CI/master?label=ci)
+![CI Status](https://img.shields.io/github/workflow/status/lboecker/eslint-configs/CI/main?label=ci)
 
 Lukas Böcker's ESLint configs
 
