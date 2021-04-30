@@ -31,7 +31,7 @@
     "build:js": "babel --root-mode upward --extensions .js,.jsx,.ts,.tsx --out-dir dist src"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.9"
+    "confusing-browser-globals": "^1.0.10"
   },
   "peerDependencies": {
     "@babel/eslint-parser": "7.x",
