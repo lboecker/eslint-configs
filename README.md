@@ -17,13 +17,21 @@ Lukas Böcker's ESLint configs
 
 ## Debugging
 
-To output the final configs, run ESLint with the following options:
+To output the final config for a given file, run ESLint with the following
+options:
 
-`yarn eslint --no-eslintrc -c <config> --print-config <file>`
+```
+yarn eslint --no-eslintrc -c <config> --print-config <file>
+```
 
 For example, run:
 
-`yarn eslint --no-eslintrc -c packages/eslint-config-react/dist/index.js --print-config __tests__/example.test.tsx`
+```sh
+yarn eslint \
+  --no-eslintrc \
+  -c packages/eslint-config-react/dist/index.js \
+  --print-config __tests__/example.test.tsx
+```
 
 ## Releasing a new version
 
@@ -38,7 +46,9 @@ For example, run:
 
 ## Updating Yarn plugins
 
-`yarn plugin import <name>`
+```
+yarn plugin import <name>
+```
 
 ## License
 
