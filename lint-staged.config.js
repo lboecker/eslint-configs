@@ -10,5 +10,5 @@ module.exports = {
       'yarn typecheck',
     ];
   },
-  '*.{json,yaml,yml}': (files) => `prettier --write ${files.join(' ')}`,
+  '*.{json,md,yaml,yml}': (files) => `prettier --write ${files.join(' ')}`,
 };
