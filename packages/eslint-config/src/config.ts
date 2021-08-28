@@ -13,6 +13,7 @@ const config: Linter.Config = {
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
+    requireConfigFile: false,
   },
   rules: {
     // Best practices
