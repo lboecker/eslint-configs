@@ -41,7 +41,7 @@
     "eslint-config-prettier": "8.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jest": "24.x",
-    "eslint-plugin-prettier": "3.x"
+    "eslint-plugin-prettier": "4.x"
   },
   "engines": {
     "node": ">=12"
