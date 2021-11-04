@@ -20,6 +20,17 @@ const config: Linter.Config = {
     },
   },
   rules: {
+    // https://github.com/typescript-eslint/typescript-eslint/issues/2063#issuecomment-675156492
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        extendDefaults: true,
+        types: {
+          '{}': false,
+        },
+      },
+    ],
+
     // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
