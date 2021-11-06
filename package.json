@@ -12,14 +12,12 @@
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx --max-warnings 0 .",
     "lint:prettier": "prettier --check '**/*.{json,md,yaml,yml}'",
+    "postinstall": "husky install",
     "prepack": "yarn build",
     "test": "jest",
     "test:ci": "jest --ci --colors",
     "typecheck": "tsc --noEmit",
     "version": "yarn install && git add yarn.lock"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "yarn lint-staged"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
@@ -42,11 +40,11 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.4",
     "jest": "^27.1.0",
     "lerna": "^4.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "2.3.2",
-    "simple-git-hooks": "^2.4.1",
     "typescript": "^4.2.4"
   },
   "packageManager": "yarn@3.1.0"
