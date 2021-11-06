@@ -1,4 +1,5 @@
 {
   "root": true,
-  "extends": ["@lboecker/eslint-config"]
+  "extends": ["@lboecker/eslint-config"],
+  "ignorePatterns": ["!.*", ".yarn/", "coverage/", "dist/", "node_modules/"]
 }

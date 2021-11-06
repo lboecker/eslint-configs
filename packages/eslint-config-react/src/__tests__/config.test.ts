@@ -1,4 +1,4 @@
-import config from '../src/config';
+import config from '../config';
 
 test('exports ESLint config', () => {
   expect(config).toHaveProperty('extends');
