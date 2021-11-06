@@ -5,11 +5,11 @@ node_modules/
 lerna-debug.log
 yarn-error.log
 
-# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
 .yarn/*
 !.yarn/patches
-!.yarn/releases
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-.pnp.*
