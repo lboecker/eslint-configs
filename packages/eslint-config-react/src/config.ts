@@ -7,6 +7,8 @@ const config: Linter.Config = {
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:testing-library/react',
+    'plugin:jest-dom/recommended',
     'plugin:prettier/recommended',
   ],
   parserOptions: {
