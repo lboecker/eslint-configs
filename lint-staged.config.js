@@ -1,14 +1,11 @@
 'use strict';
 
 module.exports = {
-  '*.{js,jsx,ts,tsx}': (files) => {
-    const joinedFiles = files.join(' ');
-    return [
-      'yarn build',
-      `eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0 ${joinedFiles}`,
-      `jest --ci --findRelatedTests --passWithNoTests ${joinedFiles}`,
-      'yarn typecheck',
-    ];
-  },
+  '*.{js,jsx,ts,tsx}': (files) => [
+    'yarn build',
+    `eslint --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0 ${files.join(' ')}`,
+    `jest --ci --findRelatedTests --passWithNoTests ${files.join(' ')}`,
+    'yarn typecheck',
+  ],
   '*.{json,md,yaml,yml}': (files) => `prettier --write ${files.join(' ')}`,
 };
