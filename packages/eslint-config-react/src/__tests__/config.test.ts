@@ -1,10 +1,9 @@
 import config from '../config';
 
-test('exports ESLint config', () => {
-  expect(config).toHaveProperty('extends');
-  expect(config).toHaveProperty('rules');
-});
-
-test('extends @lboecker/eslint-config', () => {
-  expect(config.extends).toContain('@lboecker/eslint-config');
+test.each([
+  '@lboecker/eslint-config',
+  'plugin:react/recommended',
+  'plugin:react-hooks/recommended',
+])('extends %s', (sharableConfig) => {
+  expect(config.extends).toContain(sharableConfig);
 });
