@@ -11,7 +11,7 @@ const config: Linter.Config = {
   },
   parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 2019, // https://node.green/#ES2019
     sourceType: 'module',
     requireConfigFile: false,
   },
