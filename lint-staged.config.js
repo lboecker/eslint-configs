@@ -7,5 +7,4 @@ module.exports = {
     `jest --ci --findRelatedTests --passWithNoTests ${files.join(' ')}`,
     'yarn typecheck',
   ],
-  '*.{json,md,yaml,yml}': (files) => `prettier --write ${files.join(' ')}`,
 };

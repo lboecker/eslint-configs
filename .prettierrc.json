@@ -1,17 +1,3 @@
 {
-  "singleQuote": true,
-  "overrides": [
-    {
-      "files": ["*.yaml", "*.yml"],
-      "options": {
-        "singleQuote": false
-      }
-    },
-    {
-      "files": "*.md",
-      "options": {
-        "proseWrap": "always"
-      }
-    }
-  ]
+  "singleQuote": true
 }
