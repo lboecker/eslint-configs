@@ -21,7 +21,6 @@ const config: Linter.Config = {
     curly: 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-caller': 'error',
-    'no-empty-function': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',
     'no-implied-eval': 'error',
