@@ -41,7 +41,7 @@ yarn eslint \
 
 ## Updating Yarn
 
-1. `yarn set version latest`
+1. `yarn set version stable`
 2. `yarn install`
 
 ## Updating Yarn plugins
