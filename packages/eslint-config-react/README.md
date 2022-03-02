@@ -10,5 +10,4 @@ This package provides Lukas Böcker's ESLint config for React apps as a
 
 [ISC](LICENSE)
 
-[shareable config]:
-  https://eslint.org/docs/user-guide/configuring/configuration-files#using-a-shareable-configuration-package
+[shareable config]: https://eslint.org/docs/user-guide/configuring/configuration-files#using-a-shareable-configuration-package

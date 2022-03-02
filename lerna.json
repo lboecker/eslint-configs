@@ -7,8 +7,8 @@
   ],
   "ignoreChanges": [
     "*.md",
-    "**/__mocks__/**",
-    "**/__tests__/**"
+    "**/__tests__/**",
+    "**/__mocks__/**"
   ],
   "command": {
     "version": {

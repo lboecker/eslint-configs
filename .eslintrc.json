@@ -5,9 +5,9 @@
   ],
   "ignorePatterns": [
     "!.*",
+    "node_modules/",
     ".yarn/",
-    "coverage/",
     "dist/",
-    "node_modules/"
+    "coverage/"
   ]
 }

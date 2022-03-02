@@ -1,14 +1,14 @@
 {
   "collectCoverageFrom": [
     "**/packages/*/src/**/*.{js,jsx,ts,tsx}",
-    "!**/__mocks__/**",
+    "!**/node_modules/**",
     "!**/__tests__/**",
-    "!**/*.d.ts",
-    "!**/node_modules/**"
+    "!**/__mocks__/**",
+    "!**/*.d.ts"
   ],
   "testPathIgnorePatterns": [
-    "/dist/",
-    "/node_modules/"
+    "/node_modules/",
+    "/dist/"
   ],
   "transform": {
     "^.+\\.[jt]sx?$": "babel-jest"

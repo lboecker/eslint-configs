@@ -1,9 +1,9 @@
-coverage/
-dist/
 node_modules/
+dist/
+coverage/
 
-lerna-debug.log
 yarn-error.log
+lerna-debug.log
 
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 .pnp.*
