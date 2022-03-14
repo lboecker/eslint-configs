@@ -1,3 +1,6 @@
+# Include hidden files
+!.*
+
 node_modules
 .yarn
 dist

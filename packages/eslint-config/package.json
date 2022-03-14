@@ -17,7 +17,7 @@
     "email": "lukas@lukasboecker.de"
   },
   "files": [
-    "dist/"
+    "dist"
   ],
   "main": "dist/index.js",
   "repository": {
