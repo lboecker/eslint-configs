@@ -1,7 +1,7 @@
 {
   "name": "@lboecker/eslint-config",
   "version": "0.15.0",
-  "description": "Lukas Böcker's base ESLint config",
+  "description": "Lukas Böcker's ESLint config for JavaScript and TypeScript",
   "keywords": [
     "eslint",
     "eslintconfig",

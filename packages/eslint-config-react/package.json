@@ -1,7 +1,7 @@
 {
   "name": "@lboecker/eslint-config-react",
   "version": "0.15.0",
-  "description": "Lukas Böcker's ESLint config for React apps",
+  "description": "Lukas Böcker's ESLint config for React",
   "keywords": [
     "eslint",
     "eslintconfig",
