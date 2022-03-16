@@ -39,17 +39,6 @@ yarn eslint \
 2. `git push && git push --tags`
 3. `yarn lerna publish from-package` or `yarn lerna publish from-git`
 
-## Updating Yarn
-
-1. `yarn set version stable`
-2. `yarn install`
-
-## Updating Yarn plugins
-
-```
-yarn plugin import <name>
-```
-
 ## License
 
 [ISC](LICENSE)
