@@ -16,33 +16,25 @@ const config: Linter.Config = {
     requireConfigFile: false,
   },
   rules: {
-    // Best practices
     'array-callback-return': 'error',
     curly: 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
+    'no-array-constructor': 'error',
     'no-caller': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',
     'no-implied-eval': 'error',
     'no-iterator': 'error',
+    'no-nested-ternary': 'error',
     'no-new-func': 'error',
     'no-new-wrappers': 'error',
     'no-octal-escape': 'error',
     'no-proto': 'error',
+    'no-restricted-globals': ['error', ...restrictedGlobals],
     'no-script-url': 'error',
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-throw-literal': 'error',
-    'require-await': 'error',
-
-    // Variables
-    'no-restricted-globals': ['error', ...restrictedGlobals],
-
-    // Stylistic issues
-    'no-array-constructor': 'error',
-    'no-nested-ternary': 'error',
-
-    // ES2015
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-rest-params': 'error',
@@ -77,7 +69,7 @@ const config: Linter.Config = {
       },
     },
     {
-      files: ['**/__tests__/**', '**/__mocks__/**'],
+      files: ['**/__tests__/**/*', '**/*.{spec,test}.*'],
       extends: ['plugin:jest/recommended', 'plugin:prettier/recommended'],
     },
   ],
